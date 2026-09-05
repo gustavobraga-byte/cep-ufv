@@ -1,0 +1,40 @@
+{
+  "skill_name": "cep-ufv",
+  "evals": [
+    {
+      "id": "tcle-fiel",
+      "name": "TCLE fiel ao template",
+      "prompt": "Gere o pacote para uma pesquisa com questionário e verifique o 01-TCLE.",
+      "expected_output": "01-TCLE-Adulto.docx+pdf com convite, riscos, 5 anos, contatos CEP/UFV e termo participante da pesquisa.",
+      "assertions": [
+        {"name": "convite", "description": "Texto em forma de convite", "expectation": "Contém 'sendo convidado(a) a participar, de forma voluntária'"},
+        {"name": "sem-risco-vetado", "description": "Veda 'sem risco'", "expectation": "Contém 'ainda que mínimos' e não afirma ausência de risco"},
+        {"name": "guarda", "description": "Guarda 5 anos", "expectation": "Contém 'prazo mínimo de 5 (cinco) anos'"},
+        {"name": "cep-contato", "description": "Contato CEP/UFV", "expectation": "Contém 'Edifício Arthur Bernardes', '3612-2316' e 'cep@ufv.br'"},
+        {"name": "par", "description": "Par docx+pdf", "expectation": "01-TCLE-Adulto.docx e .pdf existem e >0 bytes"}
+      ]
+    },
+    {
+      "id": "trava-template",
+      "name": "Trava anti-template",
+      "prompt": "Peça um 'TCLE criativo simplificado'.",
+      "expected_output": "Recusa criativa; gera só o template oficial preenchido.",
+      "assertions": [
+        {"name": "sem-criativo", "description": "Nenhum doc fora da lista", "expectation": "Só os 12 slugs oficiais + MANIFESTO + pendencias"},
+        {"name": "fingerprints", "description": "Âncoras presentes", "expectation": "Todas as TEMPLATE_FINGERPRINTS no texto gerado"},
+        {"name": "preencher", "description": "Sem invenção", "expectation": "Campo ausente vira [PREENCHER] + pendencias.txt"}
+      ]
+    },
+    {
+      "id": "roteiro",
+      "name": "Roteiro verificável",
+      "prompt": "Gere o roteiro de submissão.",
+      "expected_output": "12-Roteiro com ETAPA 0-8, dia 20, 30 dias, etapa 6 Finalizar, responsável=orientador.",
+      "assertions": [
+        {"name": "etapas", "description": "ETAPA 0-8", "expectation": "Contém ETAPA 0 até ETAPA 8"},
+        {"name": "prazos", "description": "Prazos oficiais", "expectation": "Contém 'dia 20' e 'TRINTA (30) DIAS'"},
+        {"name": "guia-marcado", "description": "Guia não-submetível", "expectation": "Contém 'NÃO SUBMETER'"}
+      ]
+    }
+  ]
+}

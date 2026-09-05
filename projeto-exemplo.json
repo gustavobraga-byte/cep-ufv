@@ -1,0 +1,108 @@
+{
+  "titulo": "Exemplo — Efeitos de uma intervenção educativa sobre hábitos alimentares de escolares em Viçosa/MG",
+  "pesquisador": {
+    "nome": "Profa. Dra. Maria Silva (orientadora e responsável)",
+    "departamento": "Departamento de Nutrição e Saúde",
+    "endereco": "Av. PH Rolfs, s/n, Campus Universitário, Viçosa/MG",
+    "telefone": "(31) 3612-0000",
+    "email": "maria.silva@ufv.br",
+    "instituicao": "Universidade Federal de Viçosa"
+  },
+  "objetivo": "Avaliar o efeito de oficinas educativas sobre o consumo de frutas e hortaliças por escolares do ensino fundamental.",
+  "justificativa": "Baixo consumo de frutas e hortaliças entre escolares justifica ações educativas avaliadas com rigor ético.",
+  "procedimentos": " questionário estruturado (20 min), medidas antropométricas (peso/altura) e 3 oficinas educativas em grupo.",
+  "local": "Escola Municipal X, Viçosa/MG (sala de aula e pátio, em horário escolar).",
+  "tempo_estimado": "40 minutos por encontro, 4 encontros.",
+  "riscos": "Constrangimento ao responder, cansaço, identificação indireta e, no ambiente virtual (se usado), limites de confidencialidade da tecnologia.",
+  "medidas_risco": "Ambiente reservado, anonimização por códigos, interrupção a qualquer momento, suporte da equipe, dados em ambiente seguro.",
+  "beneficios": "Orientação nutricional aos participantes e subsídio a políticas escolares de alimentação saudável.",
+  "ressarcimento": "Não haverá custos ao participante; despesas eventuais (transporte/alimentação) serão ressarcidas pelos pesquisadores.",
+  "retorno": "Relatório-síntese à escola e aos responsáveis + roda de conversa + publicação científica sem identificações.",
+  "contato_retirada": "maria.silva@ufv.br / (31) 3612-0000",
+  "participante_nome": "Nome do(a) participante (preenchido no ato da assinatura)",
+  "usa_menores": true,
+  "usa_biologico": false,
+  "biologico_lab": "Não se aplica (sem coleta de material biológico)",
+  "biologico_futuro": "Não se aplica",
+  "usa_prontuario": false,
+  "dados_sigilosos": true,
+  "dados_secundarios": false,
+  "ambiente_virtual": false,
+  "gravacao": true,
+  "coleta_online": false,
+  "questionario": [
+    {
+      "pergunta": "Com que frequência você consome frutas?",
+      "tipo": "multipla",
+      "opcoes": [
+        "Todo dia",
+        "3-5x por semana",
+        "1-2x por semana",
+        "Raramente"
+      ],
+      "obrigatoria": true
+    }
+  ],
+  "vulneraveis": "",
+  "acompanhamento": "A equipe permanecerá disponível após cada encontro para acolhimento e esclarecimentos",
+  "saude_mental": false,
+  "saude_mental_orientacoes": "",
+  "sus": false,
+  "introducao": "Introdução: contexto do consumo alimentar de escolares e lacuna que a intervenção educativa pretende enfrentar.",
+  "instrumentos": [
+    "Questionário estruturado de consumo alimentar (anexo 1)",
+    "Ficha antropométrica (anexo 2)",
+    "Roteiro das oficinas (anexo 3)"
+  ],
+  "referencias": [
+    "BRASIL. Resolução CNS nº 466/2012.",
+    "BRASIL. Resolução CNS nº 510/2016.",
+    "BRASIL. Lei nº 14.874/2024."
+  ],
+  "instituicao_local": {
+    "nome": "Escola Municipal X — Secretaria Municipal de Educação de Viçosa",
+    "representante": "Diretora Y",
+    "cargo": "Diretora escolar"
+  },
+  "entrevistas_instituicao": true,
+  "cronograma": [
+    {
+      "etapa": "Elaboração do projeto",
+      "periodo": "Janeiro/2027"
+    },
+    {
+      "etapa": "Submissão na Plataforma Brasil",
+      "periodo": "Fevereiro/2027"
+    },
+    {
+      "etapa": "Apreciação ética CEP/UFV",
+      "periodo": "Fevereiro a Abril/2027"
+    },
+    {
+      "etapa": "Coleta de dados*",
+      "periodo": "Maio a Julho/2027"
+    },
+    {
+      "etapa": "Análise + redação + relatório final ao CEP",
+      "periodo": "Agosto a Dezembro/2027"
+    }
+  ],
+  "orcamento": [
+    {
+      "item": "Impressão de questionários",
+      "valor": "R$ 300,00",
+      "fonte": "Financiamento próprio"
+    },
+    {
+      "item": "Transporte da equipe",
+      "valor": "R$ 500,00",
+      "fonte": "Financiamento próprio"
+    }
+  ],
+  "financiamento_proprio": true,
+  "dispensa_tcle": {
+    "solicitar": false,
+    "justificativa": ""
+  },
+  "cidade": "Viçosa"
+}
