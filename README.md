@@ -7,7 +7,7 @@ Skill que gera o **pacote documental para submissão ao Comitê de Ética em Pes
 | Aspecto | Detalhe |
 |---------|---------|
 | **Nome** | `cep-ufv` |
-| **Versão** | 1.6.0-coleta-online-forms |
+| **Versão** | 1.7.1-total-no-docs |
 | **Categoria** | Ética em pesquisa / Documentação regulatória |
 | **Fontes** | CEP/UFV (modelos, rito, pendências, reuniões, legislação) |
 | **Formato** | SKILL.md + run.py + modelos/ + docs + tests + evals |
